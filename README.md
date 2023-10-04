@@ -1,7 +1,7 @@
 # Boggle_Word_Checker
 The find_word function is a Python implementation that checks if a given word can be found on a Boggle board. 
 It utilizes a depth-first search (DFS) approach to explore the board for possible paths by using the function find_path
-# Function Signature
+## Function Signature
 def find_word(board: List[List[str]], word: str) -> bool:
     """
     Checks if a given word can be found on a Boggle board.
