@@ -28,3 +28,22 @@ testBoard = [
 
 result = find_word(testBoard, "BINARY")
 print(result)  # Output: True
+
+
+## Example Test Cases
+
+testBoard = [
+    ["E","A","R","A"],
+    ["N","L","E","C"],
+    ["I","A","I","S"],
+    ["B","Y","O","R"]
+]
+
+print(find_word(testBoard, "C"))  # True
+print(find_word(testBoard, "EAR"))  # True
+print(find_word(testBoard, "EARS"))  # False
+print(find_word(testBoard, "BAILER"))  # True
+print(find_word(testBoard, "RSCAREIOYBAILNEA"))  # True
+print(find_word(testBoard, "CEREAL"))  # False
+print(find_word(testBoard, "ROBES"))  # True or False
+
