@@ -13,12 +13,12 @@ def find_word(board: List[List[str]], word: str) -> bool:
     Returns:
         bool: True if the word can be found, False otherwise.
     """
-# How It Works
+## How It Works
 The find_word function takes two arguments: board, a 2D list representing the Boggle board, and word, the word to be searched for.
 
 The function performs a depth-first search (DFS) to explore possible paths on the board, checking if they match the given word.
 
-# Example Usage
+## Example Usage
 testBoard = [
     ["E","A","R","A"],
     ["N","L","E","C"],
